@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+
+ <!--    Import bootstrap, angular, and jQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+
+    <!-- ui-router library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+    <!-- link to js page -->
+    <script src="js/carp.js"></script>
+    <!-- link to css page -->
+    <link href = "carp.css" rel="stylesheet" type = "text/css"/>
+      <meta charset="utf-8">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Header for mobile -->
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+      
+                    <li><a ui-sref="whatIs" >What is Helpfulness</a></li>
+                    <li><a ui-sref="motivation" >Motivation</a></li>
+                    <li><a ui-sref="execution" >Execution</a></li>
+                    <li><a ui-sref="about" >About Us</a></li>
+              </ul>
+            </div>
+           
+                
+        </div>
+    </nav>
+    <header>
+      Whoooo headerrrrr
+    </header>
+
+    <!-- This is where the content will appear -->
+    <div id = "content" class="container">
+      <div ui-view></div>
+    </div>
+  </body>
+</html>

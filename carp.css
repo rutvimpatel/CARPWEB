@@ -1,0 +1,20 @@
+.navbar {
+	margin-left: : auto;
+	margin-right: auto;
+}
+
+nav.navbar{
+	background-color: #181C22;
+	padding-top: 1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	display: inline;
+	color: white;
+	font-size: 20px;
+	font-variant: small-caps;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FF8300;
+}
