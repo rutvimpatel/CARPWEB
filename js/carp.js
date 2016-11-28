@@ -6,10 +6,10 @@ var myApp = angular.module('myApp', ['ui.router'])
 .config(function($stateProvider) {
     $stateProvider
     // Each state routes to a different page
-  .state('motivation', {
-    url:'/motivation',
-    templateUrl: 'templates/motivation.html',
-    controller: 'motiveControl',
+  .state('home', {
+    url:'/home',
+    templateUrl: 'templates/home.html',
+    controller: 'homeControl',
   })
   .state('whatIs', {
     url:'/whatIs',
@@ -32,15 +32,17 @@ var myApp = angular.module('myApp', ['ui.router'])
 // variables are visible in the html, and $http to request from 
 // the json file
 
+
+// Controller for motivation page
+.controller('homeControl', function($scope, $http){
+  
+})
+
 // controller for what is helpfulness page
 .controller('whatIsControl', function($scope, $http){
   
 })
 
-// Controller for motivation page
-.controller('motiveControl', function($scope, $http){
-  
-})
 
 // Controller for execution page
 .controller('execControl', function($scope, $http){
