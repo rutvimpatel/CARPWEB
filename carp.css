@@ -1,4 +1,11 @@
+#about {
+	font-size: 4em;
+}
 
+.biopics {
+	height: 200px;
+	width: 200px;
+}
 
 #content .container {
 	padding: 2em;
@@ -12,6 +19,22 @@
 
 #content .container h3 {
 	margin-top: 2em;
+}
+
+#datashot {
+	height: 280px;
+}
+
+#exec {
+	font-size: 4em;
+}
+
+#helpfulness {
+	font-size: 4em;
+}
+
+.row {
+	text-align: left;
 }
 
 .navbar {
@@ -32,5 +55,9 @@ nav.navbar{
 }
 
 .navbar-default .navbar-nav>li>a:hover {
+	color: #FF8300;
+}
+
+.navbar-default .navbar-nav>li>a.active {
 	color: #FF8300;
 }
