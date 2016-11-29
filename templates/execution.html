@@ -1,4 +1,4 @@
-<div style = "margin-top: 4em;">
+<div style = "margin-top: 5em;">
 	<h1 id = "exec">Execution</h1>
 
 	<h3>Our Data</h3>
@@ -22,8 +22,15 @@
 			<div class = "container exec">
 				<div class = "row">
 					<div class = "col-md-6">
-						<p>Project data has been sourced from Julian McAuley at the University of California, San Diego. The data set contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014. The scope of this project will narrow focus to a subset of book reviews that has already been cleaned of duplicates by McAuley. This subset contains over 9 million book reviews. Each review contains the following: ReviewerID, asin, reviewerName, helpful, reviewText, overall, summary, unixRevewTime, and reviewTime.</p>
-						
+						<p>
+							We first constructed a weighted helpfulness ratio that would allow us to work with the data that we had. The purpose of a weighted ratio was to hold reviews that had a higher response rate to a higher value. For example, a review with a 50/50 helpfulness rating should be given more weight that a 1/1 helpfulness rating even though they are both 100%.
+							<br /> 
+							Next extracted NLP features such as average word lenght, word count etc. This broke out different features of different reviews and allowed us to compare the NLP features with the helpfulness ratings. 
+							<br /> 
+							We created 500 combines Uniggrams and Bigrams. We chose a relatively smaller number due to the size of our data set. 
+							<br />
+							We chose a Decision Forest Regression Machine Learning Model because it prioritized accuracy and trained quickly. 
+						</p>
 					</div>
 					<div class = "col-md-6"> 
 						<img id = "datashot" src="img/data.png">
