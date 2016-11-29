@@ -7,7 +7,7 @@ var myApp = angular.module('myApp', ['ui.router'])
     $stateProvider
     // Each state routes to a different page
   .state('home', {
-    url:'/',
+    url:'',
     templateUrl: 'templates/home.html',
     controller: 'homeControl',
   })
