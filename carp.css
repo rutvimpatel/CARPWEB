@@ -7,6 +7,10 @@
 	width: 200px;
 }
 
+.btn {
+	margin-top: 2em;
+}
+
 #content .container {
 	padding: 2em;
 	text-align: center;
