@@ -69,3 +69,9 @@ nav.navbar{
 .navbar-default .navbar-nav>li>a.active {
 	color: #FF8300;
 }
+
+#expImg {
+	height: 600px;
+	margin-left: 8em;
+
+}
