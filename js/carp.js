@@ -2,6 +2,8 @@
 
 // This intitializes the page that will allow for multipage 
 var myApp = angular.module('myApp', ['ui.router'])
+
+
 // Config route provider
 .config(function($stateProvider) {
     $stateProvider

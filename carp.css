@@ -41,6 +41,10 @@
 	font-size: 4em;
 }
 
+#oldButton {
+	border-width: 2px;
+}
+
 .row {
 	text-align: left;
 }
