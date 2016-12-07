@@ -29,7 +29,7 @@ var myApp = angular.module('myApp', ['ui.router'])
     controller: 'aboutControl',
   })
 })
-$state.go('home')
+// $state.go('home')
 // All of the following controllers take in $scope so that
 // variables are visible in the html, and $http to request from 
 // the json file
